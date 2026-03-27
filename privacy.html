@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – Parks Romania</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --green: #176B17;
+      --text: #1a1a1a;
+      --muted: #555;
+      --bg: #fffdf5;
+      --surface: #ffffff;
+      --border: #e0ddd0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+      background: var(--bg); color: var(--text); line-height: 1.7;
+    }
+    a { color: var(--green); }
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(255,253,245,0.9);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 24px;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 56px;
+    }
+    .nav-brand { font-weight: 700; font-size: 17px; color: var(--green); }
+    .nav-back { font-size: 14px; color: var(--muted); display: flex; align-items: center; gap: 4px; }
+
+    .container { max-width: 720px; margin: 0 auto; padding: 60px 24px; }
+    .page-label {
+      font-size: 12px; font-weight: 700; letter-spacing: 1.5px;
+      text-transform: uppercase; color: var(--green); margin-bottom: 8px;
+    }
+    h1 { font-size: 40px; font-weight: 800; letter-spacing: -1px; margin-bottom: 8px; }
+    .last-updated { font-size: 14px; color: var(--muted); margin-bottom: 48px; }
+
+    .lang-switch {
+      display: flex; gap: 8px; margin-bottom: 40px;
+    }
+    .lang-btn {
+      padding: 6px 18px; border-radius: 100px; font-size: 13px; font-weight: 600;
+      border: 1px solid var(--border); cursor: pointer; background: var(--surface);
+      color: var(--muted); transition: all 0.15s;
+    }
+    .lang-btn.active { background: var(--green); color: white; border-color: var(--green); }
+
+    .content { display: none; }
+    .content.active { display: block; }
+
+    h2 { font-size: 22px; font-weight: 700; margin: 40px 0 12px; color: var(--text); }
+    p { margin-bottom: 16px; color: #333; }
+    ul { margin: 0 0 16px 20px; }
+    li { margin-bottom: 8px; color: #333; }
+
+    .highlight-box {
+      background: #e8f5e8; border-left: 4px solid var(--green);
+      border-radius: 0 12px 12px 0;
+      padding: 20px 24px; margin: 32px 0;
+    }
+    .highlight-box p { margin: 0; font-weight: 500; color: var(--green); }
+
+    footer {
+      background: var(--surface); border-top: 1px solid var(--border);
+      padding: 32px 24px; text-align: center;
+    }
+    .footer-links { display: flex; justify-content: center; gap: 24px; flex-wrap: wrap; margin-bottom: 12px; font-size: 14px; }
+    .footer-copy { font-size: 13px; color: var(--muted); }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-brand">Parks Romania</div>
+  <a href="index.html" class="nav-back">← Back</a>
+</nav>
+
+<div class="container">
+  <div class="page-label">Legal</div>
+  <h1>Privacy Policy</h1>
+  <div class="last-updated">Last updated: January 2025</div>
+
+  <div class="lang-switch">
+    <button class="lang-btn active" onclick="setLang('en')">English</button>
+    <button class="lang-btn" onclick="setLang('ro')">Română</button>
+  </div>
+
+  <!-- ENGLISH -->
+  <div class="content active" id="lang-en">
+
+    <div class="highlight-box">
+      <p>🔒 Parks Romania does not collect, store, or transmit any personal data. Your privacy is fully protected.</p>
+    </div>
+
+    <h2>Overview</h2>
+    <p>Parks Romania ("the App") is committed to protecting your privacy. This Privacy Policy explains how the App handles information.</p>
+
+    <h2>Data We Do NOT Collect</h2>
+    <p>Parks Romania does not collect any personal information. Specifically:</p>
+    <ul>
+      <li>No account or registration is required</li>
+      <li>No name, email address, or contact information is collected</li>
+      <li>No location data is collected or tracked</li>
+      <li>No usage analytics or behavioral data is collected</li>
+      <li>No advertising identifiers are used</li>
+      <li>No data is sent to any server or third party</li>
+    </ul>
+
+    <h2>Local Storage</h2>
+    <p>The App stores only your language preference (Romanian or English) locally on your device using standard iOS mechanisms. This data never leaves your device.</p>
+
+    <h2>Third-Party Services</h2>
+    <p>The App may open external links in your browser — including Google Maps, Google Images, and official park websites. When you follow these links, you leave the App and are subject to those services' own privacy policies. Parks Romania has no control over and takes no responsibility for the privacy practices of external websites.</p>
+
+    <h2>Children's Privacy</h2>
+    <p>Parks Romania does not knowingly collect any information from children under 13. The App contains no user-generated content and requires no registration.</p>
+
+    <h2>Changes to This Policy</h2>
+    <p>If this Privacy Policy changes, the updated version will be posted here with a revised "Last updated" date.</p>
+
+    <h2>Contact</h2>
+    <p>If you have any questions about this Privacy Policy, please contact us at:<br>
+    <a href="mailto:nicolaflorin00@icloud.com">nicolaflorin00@icloud.com</a></p>
+
+  </div>
+
+  <!-- ROMANIAN -->
+  <div class="content" id="lang-ro">
+
+    <div class="highlight-box">
+      <p>🔒 Parks Romania nu colectează, nu stochează și nu transmite nicio dată personală. Confidențialitatea ta este pe deplin protejată.</p>
+    </div>
+
+    <h2>Prezentare generală</h2>
+    <p>Parks Romania („Aplicația") se angajează să protejeze confidențialitatea utilizatorilor. Această Politică de Confidențialitate explică modul în care Aplicația gestionează informațiile.</p>
+
+    <h2>Date pe care NU le colectăm</h2>
+    <p>Parks Romania nu colectează nicio informație personală. Mai exact:</p>
+    <ul>
+      <li>Nu este necesară nicio înregistrare sau cont</li>
+      <li>Nu se colectează nume, adresă de e-mail sau alte date de contact</li>
+      <li>Nu se colectează sau urmăresc date de locație</li>
+      <li>Nu se colectează analize de utilizare sau date comportamentale</li>
+      <li>Nu se utilizează identificatori publicitari</li>
+      <li>Nicio dată nu este trimisă vreunui server sau terț</li>
+    </ul>
+
+    <h2>Stocare locală</h2>
+    <p>Aplicația stochează doar preferința de limbă (română sau engleză) local pe dispozitivul tău, utilizând mecanismele standard iOS. Aceste date nu părăsesc niciodată dispozitivul tău.</p>
+
+    <h2>Servicii terțe</h2>
+    <p>Aplicația poate deschide linkuri externe în browser — inclusiv Google Maps, Google Images și site-urile oficiale ale parcurilor. Atunci când urmezi aceste linkuri, părăsești Aplicația și ești supus politicilor de confidențialitate ale respectivelor servicii. Parks Romania nu are control și nu își asumă responsabilitatea pentru practicile de confidențialitate ale site-urilor externe.</p>
+
+    <h2>Confidențialitatea copiilor</h2>
+    <p>Parks Romania nu colectează în mod intenționat nicio informație de la copii sub 13 ani. Aplicația nu conține conținut generat de utilizatori și nu necesită înregistrare.</p>
+
+    <h2>Modificări ale acestei politici</h2>
+    <p>Dacă această Politică de Confidențialitate se modifică, versiunea actualizată va fi publicată aici cu o dată „Ultima actualizare" revizuită.</p>
+
+    <h2>Contact</h2>
+    <p>Dacă ai întrebări despre această Politică de Confidențialitate, ne poți contacta la:<br>
+    <a href="mailto:nicolaflorin00@icloud.com">nicolaflorin00@icloud.com</a></p>
+
+  </div>
+</div>
+
+<footer>
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="support.html">Support</a>
+    <a href="mailto:nicolaflorin00@icloud.com">Contact</a>
+  </div>
+  <div class="footer-copy">&copy; 2025 Parks Romania</div>
+</footer>
+
+<script>
+  function setLang(lang) {
+    document.querySelectorAll('.content').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('.lang-btn').forEach(el => el.classList.remove('active'));
+    document.getElementById('lang-' + lang).classList.add('active');
+    event.target.classList.add('active');
+  }
+</script>
+</body>
+</html>
